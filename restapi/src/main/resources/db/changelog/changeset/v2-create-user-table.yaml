@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-user #текстовый идентификатор (Обязателен)
+      author: Nastya # автор (Обязателен)
+      changes:
+        - createTable: # создаем новую таблицу
+            tableName: user
+            columns: # объявления колонок
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: age
+                  type: int
+                  constraints:
+                    nullable: false
+              - column:
+                  name: user_name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: sur_name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false

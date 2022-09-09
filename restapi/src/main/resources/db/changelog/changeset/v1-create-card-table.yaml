@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-card #текстовый идентификатор (Обязателен)
+      author: Nastya # автор (Обязателен)
+      changes:
+        - createTable: # создаем новую таблицу
+            tableName: card
+            columns: # объявления колонок
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: bank_name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: card_number
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: card_surname
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: card_username
+                  type: varchar(255)
+                  constraints:
+                    nullable: false

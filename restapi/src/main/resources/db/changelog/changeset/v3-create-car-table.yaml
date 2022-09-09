@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-car #текстовый идентификатор (Обязателен)
+      author: Nastya # автор (Обязателен)
+      changes:
+        - createTable: # создаем новую таблицу
+            tableName: car
+            columns: # объявления колонок
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: brand
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: model
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: colour
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: int
+                  constraints:
+                    foreignKeyName: user_car_fk
+                    referencedTableName: user
+                    referencedColumnNames: id
+                    nullable: false

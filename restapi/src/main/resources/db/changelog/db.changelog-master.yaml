@@ -1,0 +1,9 @@
+databaseChangeLog: #параметр в котором находятся миграции
+  - include: # список активных миграций
+      file: db/changelog/changeset/v1-create-card-table.yaml # путь к файлу миграции
+  - include:
+      file: db/changelog/changeset/v2-create-user-table.yaml
+  - include:
+      file: db/changelog/changeset/v3-create-car-table.yaml
+  - include:
+      file: db/changelog/changeset/v4-add-data-tables.yaml

@@ -1,0 +1,74 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-data
+      author: Nastya
+      changes:
+        - insert:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: age
+                  value: 17
+              - column:
+                  name: user_name
+                  value: "Человек"
+              - column:
+                  name: sur_name
+                  value: "Паук"
+        - insert:
+            tableName: card
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: bank_name
+                  value: "Sber"
+              - column:
+                  name: card_number
+                  value: "1243 2003 3213 5421"
+              - column:
+                  name: card_surname
+                  value: "Паук"
+              - column:
+                  name: card_username
+                  value: "Человек"
+        - insert:
+            tableName: car
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: brand
+                  value: "Honda"
+              - column:
+                  name: model
+                  value: "CIVIC"
+              - column:
+                  name: colour
+                  value: "Yellow"
+              - column:
+                  name: user_id
+                  value: 1
+        - insert:
+            tableName: car
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: brand
+                  value: "Bat"
+              - column:
+                  name: model
+                  value: "MOBILE"
+              - column:
+                  name: colour
+                  value: "TOTAL ULTRA BLACK"
+              - column:
+                  name: user_id
+                  value: 1
