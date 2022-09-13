@@ -1,12 +1,13 @@
 package com.example.restapi.controller;
 
+import com.example.restapi.model.Card;
 import com.example.restapi.service.CardService;
-import com.example.restapi.user.Card;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
 
 @RestController
 @RequestMapping("/card")
@@ -43,7 +44,8 @@ public class CardController {
     }
 
     @GetMapping("/sql")
-    public List<Card> getListCard(){
+    public List<Card> getListCard() {
         return cardService.getListCard();
     }
+
 }

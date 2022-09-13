@@ -1,8 +1,8 @@
 package com.example.restapi.mapper;
 
 import com.example.restapi.dto.UserDto;
-import com.example.restapi.user.Car;
-import com.example.restapi.user.User;
+import com.example.restapi.model.Car;
+import com.example.restapi.model.User;
 
 import java.util.stream.Collectors;
 

@@ -1,10 +1,11 @@
 package com.example.restapi.service;
 
-import com.example.restapi.user.Card;
+import com.example.restapi.model.Card;
 
 import java.util.List;
 
 public interface CardService {
+
     Card addCard(Card card);
 
     Card putCard(Integer id, Card card);

@@ -4,7 +4,7 @@ import com.example.restapi.dto.UserDto;
 import com.example.restapi.mapper.UserMapper;
 import com.example.restapi.repository.UserRepository;
 import com.example.restapi.service.UserService;
-import com.example.restapi.user.User;
+import com.example.restapi.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

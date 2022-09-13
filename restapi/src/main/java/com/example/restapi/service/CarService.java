@@ -1,7 +1,6 @@
 package com.example.restapi.service;
 
-import com.example.restapi.user.Car;
-import org.springframework.stereotype.Service;
+import com.example.restapi.model.Car;
 
 import java.util.List;
 

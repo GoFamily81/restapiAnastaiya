@@ -1,6 +1,6 @@
 package com.example.restapi.repository;
 
-import com.example.restapi.user.Card;
+import com.example.restapi.model.Card;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

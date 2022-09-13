@@ -2,7 +2,7 @@ package com.example.restapi.controller;
 
 import com.example.restapi.dto.UserDto;
 import com.example.restapi.service.UserService;
-import com.example.restapi.user.User;
+import com.example.restapi.model.User;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
 package com.example.restapi.controller;
 
 import com.example.restapi.service.CarService;
-import com.example.restapi.user.Car;
+import com.example.restapi.model.Car;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

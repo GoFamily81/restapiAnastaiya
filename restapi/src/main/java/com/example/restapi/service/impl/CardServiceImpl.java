@@ -2,8 +2,9 @@ package com.example.restapi.service.impl;
 
 
 import com.example.restapi.repository.CardRepository;
+
+import com.example.restapi.model.Card;
 import com.example.restapi.service.CardService;
-import com.example.restapi.user.Card;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

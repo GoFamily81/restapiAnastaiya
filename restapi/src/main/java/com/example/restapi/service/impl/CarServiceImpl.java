@@ -2,7 +2,7 @@ package com.example.restapi.service.impl;
 
 import com.example.restapi.repository.CarRepository;
 import com.example.restapi.service.CarService;
-import com.example.restapi.user.Car;
+import com.example.restapi.model.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

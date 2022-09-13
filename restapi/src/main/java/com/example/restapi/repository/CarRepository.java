@@ -1,6 +1,6 @@
 package com.example.restapi.repository;
 
-import com.example.restapi.user.Car;
+import com.example.restapi.model.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

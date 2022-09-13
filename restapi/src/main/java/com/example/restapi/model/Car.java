@@ -1,4 +1,4 @@
-package com.example.restapi.user;
+package com.example.restapi.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
